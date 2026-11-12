@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevMarwa | Web & Android Developer</title>
+    <!-- خطوط عصرية للعربية والإنجليزية -->
+    <link href="https://googleapis.com" rel="stylesheet">
+    <!-- مكتبة أيقونات Font Awesome -->
+    <link rel="stylesheet" href="https://cloudflare.com">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- الشريط العلوي (Navbar) -->
+    <header>
+        <nav class="container">
+            <a href="#" class="logo">Dev<span>Marwa</span></a>
+            <ul class="nav-links">
+                <li><a href="#home" data-i18n="nav_home">Home</a></li>
+                <li><a href="#about" data-i18n="nav_about">About</a></li>
+                <li><a href="#skills" data-i18n="nav_skills">Skills</a></li>
+                <li><a href="#projects" data-i18n="nav_projects">Projects</a></li>
+                <li><a href="#contact" data-i18n="nav_contact">Contact</a></li>
+            </ul>
+            <button id="lang-toggle" class="lang-btn">العربية</button>
+        </nav>
+    </header>
+
+    <!-- القسم الترحيبي (Hero Section) -->
+    <section id="home" class="hero container">
+        <div class="hero-content">
+            <span class="badge" data-i18n="hero_badge">Available for Freelance & Full-Time</span>
+            <h1 data-i18n="hero_title">Hi, I'm <span>DevMarwa</span></h1>
+            <h2 data-i18n="hero_subtitle">Web & Native Android Developer</h2>
+            <p data-i18n="hero_desc">I build fast, responsive websites and engaging Android applications that turn ideas into real digital products.</p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn primary-btn" data-i18n="btn_work">Explore My Work</a>
+                <a href="#contact" class="btn secondary-btn" data-i18n="btn_hire">Hire Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- نبذة عني والخدمات (About & Services) -->
+    <section id="about" class="section container">
+        <h2 class="section-title" data-i18n="about_title">About & Services</h2>
+        <div class="about-grid">
+            <div class="about-text">
+                <p data-i18n="about_p1">I am a passionate Web and Mobile Developer specialized in building complete digital solutions from scratch. Whether you are a company looking for a dedicated developer or a business owner needing a website or an Android app, I deliver clean code and smooth user experiences.</p>
+            </div>
+            <div class="services-cards">
+                <div class="card">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3 data-i18n="srv_web_title">Full-Stack Web Development</h3>
+                    <p data-i18n="srv_web_desc">Modern, responsive websites and dynamic backend systems built with HTML, CSS, JS, and PHP.</p>
+                </div>
+                <div class="card">
+                    <i class="fab fa-android"></i>
+                    <h3 data-i18n="srv_app_title">Native Android Apps</h3>
+                    <p data-i18n="srv_app_desc">High-performance Android applications and interactive mobile games developed with Kotlin & Java.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- المهارات التقنية (Tech Stack) -->
+    <section id="skills" class="section container">
+        <h2 class="section-title" data-i18n="skills_title">Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3 data-i18n="cat_frontend">Frontend Web</h3>
+                <div class="tags">
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>JavaScript (ES6+)</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3 data-i18n="cat_backend">Backend & Database</h3>
+                <div class="tags">
+                    <span>PHP</span>
+                    <span>MySQL</span>
+                    <span>REST APIs</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3 data-i18n="cat_mobile">Android Development</h3>
+                <div class="tags">
+                    <span>Kotlin</span>
+                    <span>Java</span>
+                    <span>Android Studio</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- المشاريع (Projects) -->
+    <section id="projects" class="section container">
+        <h2 class="section-title" data-i18n="projects_title">Featured Projects</h2>
+        <div class="projects-grid">
+            
+            <!-- المشروع الأول: SeaFoodRes -->
+            <div class="project-card">
+                <div class="project-badge" data-i18n="tag_web">Web Development</div>
+                <h3>SeaFoodRes</h3>
+                <p data-i18n="proj1_desc">A modern, responsive website for a seafood restaurant featuring an interactive menu, table reservation system, and smooth user interface.</p>
+                <div class="tech-used">
+                    <span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span>
+                </div>
+                <div class="project-links">
+                    <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> <span data-i18n="live_demo">Live Demo</span></a>
+                    <a href="https://github.com" target="_blank"><i class="fab fa-github"></i> <span data-i18n="source_code">Code</span></a>
+                </div>
+            </div>
+
+            <!-- المشروع الثاني: تطبيق الألعاب -->
+            <div class="project-card">
+                <div class="project-badge mobile-badge" data-i18n="tag_mobile">Android App (In Progress)</div>
+                <h3 data-i18n="proj2_title">Android Gaming App</h3>
+                <p data-i18n="proj2_desc">An interactive native Android gaming application currently in active development, focusing on smooth animations, score tracking, and engaging gameplay.</p>
+                <div class="tech-used">
+                    <span>Kotlin</span><span>Java</span><span>Android SDK</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com" target="_blank"><i class="fab fa-github"></i> <span data-i18n="source_code">GitHub Repo</span></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- التواصل (Contact) -->
+    <section id="contact" class="section container">
+        <h2 class="section-title" data-i18n="contact_title">Get In Touch</h2>
+        <p class="contact-subtitle" data-i18n="contact_desc">Have a project in mind or looking for a developer to join your team? Feel free to reach out!</p>
+        
+        <div class="social-links">
+            <a href="maleuwa17marwa@gmail.com" class="social-card">
+                <i class="fas fa-envelope"></i>
+                <span>Email</span>
+            </a>
+            <a href="https://www.linkedin.com/in/marwa-dje-a5b924427?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" class="social-card">
+                <i class="fab fa-linkedin"></i>
+                <span>LinkedIn</span>
+            </a>
+            <a href="https://github.com/maleuwa17marwa-byte" target="_blank" class="social-card">
+                <i class="fab fa-github"></i>
+                <span>GitHub</span>
+            </a>
+            <a href="https://instagram.com" target="_blank" class="social-card">
+                <i class="fab fa-instagram"></i>
+                <span>Instagram</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- التذييل (Footer) -->
+    <footer>
+        <p>&copy; 2026 DevMarwa. <span data-i18n="footer_rights">All rights reserved.</span></p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
